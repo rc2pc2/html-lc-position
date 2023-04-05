@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 50px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.height-100{
+    height: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.relative{
+    position: relative;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 1rem yellow solid;
+    background-color: blue;
+}
+
+.box-small{
+    height: 80px;
+    width: 80px;
+    /* border: 1rem red solid; */
+    background-color: blue;
+}
+
+.box-small-alone{
+    height: 80px;
+    width: 80px;
+    /* border: 1rem red solid; */
+    background-color: green;
+    position:absolute;
+    bottom: 0;
+    left:100%;
+}
+
+.box-violet-alone{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    right:0;
+    top:0;
+    background-color: purple;
+}
+
+.box-big{
+    position:relative;
+    height: 400px;
+    width: 600px;
+    background-color: red;
+    margin-bottom: 2rem;
+    /* border: 1rem magenta solid; */
+}
+
+.box-discendant{
+    position:absolute;
+    left: 94%;
+    top: 2%;
+    /* background-color: aqua;
+    border: dashed gold 10px; */
+}
+
+nav{
+    position:fixed;
+    height: 50px;
+    width: 100%;
+    top: 0px;
+    background-color: red;
+}
+
+.box-blue{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+}
+
+.small-red-box{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+
+.small-red-box:nth-child(2){
+    position:absolute;
+    left:10px;
+    top: 30px;
+}
